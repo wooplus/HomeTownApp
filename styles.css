@@ -1,0 +1,126 @@
+/**
+Palette: https://scrimba.com/links/hometown-palette
+RED: #E63946
+LIGHT: #F1FAEE
+AQUA: #A8DADC
+LIGHT BLUE: #457B9D
+DARK BLUE: #1D3557
+
+*/
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  margin: 0;
+  text-align: center;
+  background-color: #133c55;
+}
+
+img {
+  width: 100px;
+}
+
+.main-container {
+  width: 720px;
+  margin: 0 auto;
+}
+
+/* header section  */
+
+.head-container {
+  background-image: url("https://images.unsplash.com/photo-1496442226666-8d4d0e62e6e9?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=2940&q=80");
+  width: 100%;
+  height: 340px;
+  color: #91e5f6;
+
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.head-title {
+  font-size: 32px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 5px;
+  padding: 10px 20px;
+}
+
+.head-desc {
+  width: 350px;
+  line-height: 30px;
+  font-size: 18.72px;
+  background-color: rgb(87, 87, 87);
+  border-radius: 10px;
+  padding: 10px 20px;
+}
+
+/* activities section  */
+
+.activities-container {
+  background-color: #59a5d8;
+  color: #eef3fa;
+  padding: 60px 0;
+  height: 343px;
+}
+
+.activities-container img {
+  width: 113px;
+  height: 113px;
+  border-radius: 100px;
+  margin: 10px;
+}
+
+.activities-title {
+  padding-bottom: 10px;
+  font-size: 24px;
+}
+
+.activities-boxes {
+  display: flex;
+  justify-content: space-around;
+}
+
+.activities-boxes h3,
+.activities-boxes p {
+  width: 60%;
+  margin: 5px auto;
+  font-size: 16px;
+}
+
+.activities-boxes h3 {
+  font-weight: bold;
+}
+
+/* guide section  */
+
+.guide-container {
+  display: flex;
+  font-size: 24px;
+  padding: 50px;
+  width: 400px;
+  height: 294px;
+  margin: 0 auto;
+  background-color: #91e5f6;
+  color: #595959;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.guide-container img {
+  width: 200px;
+  margin-right: 20px;
+}
+
+.guide-desc {
+  font-size: 18px;
+  margin-top: 20px;
+  margin-bottom: 20px;
+}
+
+.guite-name {
+  font-size: 16px;
+}
